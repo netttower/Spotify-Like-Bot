@@ -1,8 +1,7 @@
 # crédit: https://github.com/useragents
 
-import os, time
 try:
-    import requests, random, string, threading
+    import requests, random, string, threading, os, time
 except ImportError:
     input("Error while importing modules. Please install the modules in requirements.txt")
     exit()
